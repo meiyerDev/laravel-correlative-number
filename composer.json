@@ -1,0 +1,27 @@
+{
+    "name": "themey/correlative-number",
+    "type": "library",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Meiyer Jaimes",
+            "email": "meyerjaimes123@gmail.com"
+        }
+    ],
+    "require": {
+        "php": "^7.3|^8.0",
+        "laravel/framework": "^6"
+    },
+    "autoload": {
+        "psr-4": {
+            "Themey99\\CorrelativeNumber\\": "src"
+        }
+    },
+    "extra": {
+        "laravel": {
+            "providers": [
+                "Themey99\\CorrelativeNumber\\CorrelativeNumberServiceProvider"
+            ]
+        }
+    }
+}
